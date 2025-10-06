@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GoalChain_17</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌍 GoalChain 17</h1>
+    <p>Partnerships to Achieve the Goals — Collaboration • Crowdfunding • Data Sharing • Resource Sharing</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>💰 Campaigns</h2>
+      <div id="campaignList">Loading campaigns…</div>
+      <h3>Create a Campaign</h3>
+      <form id="campaignForm">
+        <input name="title" placeholder="Title" required />
+        <input name="goal" type="number" placeholder="Goal (USD)" required />
+        <textarea name="description" placeholder="Short description"></textarea>
+        <button type="submit">Create Campaign</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>🤝 Partners</h2>
+      <div id="partnerList">Loading partners…</div>
+      <h3>Register Partner</h3>
+      <form id="partnerForm">
+        <input name="org" placeholder="Organization" required />
+        <input name="type" placeholder="Type (NGO, Gov, Business)" required />
+        <input name="country" placeholder="Country" required />
+        <input name="contact" placeholder="Contact email/phone" required />
+        <button type="submit">Register Partner</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>📤 Data Sharing</h2>
+      <form id="dataForm" enctype="multipart/form-data">
+        <input type="file" name="report" required />
+        <button type="submit">Upload Report</button>
+      </form>
+      <div id="dataList">No uploads yet.</div>
+    </section>
+
+    <section class="card">
+      <h2>🔧 Resources</h2>
+      <form id="resourceForm">
+        <input name="name" placeholder="Resource/Skill (e.g., Fullstack training)" required />
+        <input name="contact" placeholder="Contact info" required />
+        <button type="submit">Share Resource</button>
+      </form>
+      <div id="resourceList">No resources yet.</div>
+    </section>
+
+    <section class="card">
+      <h2>📊 Analytics</h2>
+      <button id="refreshAnalytics">Refresh Analytics</button>
+      <pre id="analyticsOutput">No data yet.</pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by Millicent Nabututu Makokha • GoalChain 17 • SDG 17</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
