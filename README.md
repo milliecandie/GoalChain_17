@@ -16,6 +16,8 @@ This project promotes **transparency, innovation, and impact** under the **UN Su
 ## 🚀 Live Demo  
 🔗 [Click here to view the live project](https://milliecandie.github.io/GoalChain_17/)
 
+View my pitch deck
+https://gamma.app/docs/GoalChain-17-Empowering-Global-Partnerships-for-Sustainable-Devel-lcy7f1rgvblt5zi
 ---
 
 ## 🚀 Features
