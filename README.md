@@ -13,6 +13,11 @@ This project promotes **transparency, innovation, and impact** under the **UN Su
 
 ---
 
+## 🚀 Live Demo  
+🔗 [Click here to view the live project](https://milliecandie.github.io/GoalChain_17/)
+
+---
+
 ## 🚀 Features
 - **Collaboration Platform** — Connects organizations globally.  
 - **Crowdfunding Platform** — Fund sustainable projects with transparency.  
@@ -35,13 +40,22 @@ This project promotes **transparency, innovation, and impact** under the **UN Su
 ## 🏗️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Node.js (Express)  
-- **Database:** Local JSON storage (for prototype)  
+- **Database:** Local JSON storage (for prototype)
+- **Hosting:** Github Pages
 - **AI Component:** Simulated progress analytics  
 - **Environment:** Termux + Acode  
 
 ---
 
 ## 🧰 Installation & Usage
+---
+
+## ⚙️ How to Run Locally  
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/milliecandie/GoalChain_17.git
+   
 1. **Open Termux** and navigate to your project folder:
    ```bash
    cd GoalChain_17
@@ -58,6 +72,13 @@ This project promotes **transparency, innovation, and impact** under the **UN Su
    ```
    http://localhost:3000
    ```
+
+---
+
+## 🔐 Admin Access
+> Default Admin Password: **Millie39336157**
+
+Use this password for secure actions like reviewing project submissions or approving crowdfunding campaigns.
 
 ---
 
